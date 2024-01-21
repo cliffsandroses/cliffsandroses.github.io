@@ -1,0 +1,91 @@
+*
+{			
+    margin: 0px;                                                     /* universal selector */
+    padding: 0px;
+}
+body
+{
+    text-indent: 0.3in;							                    /*text-indentation*/
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;	/*font-family*/
+    font-size: 16px;							                    /*font size*/
+    line-height: 1.42857143;
+    color: #333;							                      /*color property*/
+    background-image: url("mov3.jpg"); 				           /*background-image property*/
+}	
+ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+li 
+{
+  float: left;
+}
+li a 
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover 
+{
+  background-color: #111;
+}								
+.theatre
+{								                                   /*id selector */
+    margin-top: 5%;
+}
+.quickHead								                           /*class selector*/
+{
+    text-align:center;							                   /*text-alignment*/
+    margin-top:3%;
+    font-size: 50px;
+    color: purple;							                  /*color-group*/
+}
+.h1
+{
+    margin-top: 6%;
+    margin-bottom: -10%;
+}
+.card 
+{
+    width: 25%;
+    height: 480px;
+    margin: 4.15%;
+    float: left;							                      /* float property */   
+    background-color: #f5d7c2;
+    overflow: scroll; 	                                          /* If text is overflow, then the contents/text are hidden/gone */ 
+ 
+}
+.card h2 
+{
+    margin-left: -5%;
+    text-align: center; 						                  /* text-align property*/    
+    background-color: #f5d7c2; 					            /*background-color property*/         
+}
+    
+.card img 
+{
+    margin-left: 2%;
+    height: 325px;
+    width: 80%;
+}
+.card p
+{
+    text-align: center; 						                  /* text-align property*/    
+    background-color: #f5d7c2; 					            /*background-color property*/         
+}
+.footer
+{
+    text-align: center;
+    margin-right: 6%;
+    padding-block: 10px;
+}
